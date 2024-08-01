@@ -15,7 +15,10 @@ $ cd build
 $ cmake ..
 $ make
 ```
-By default, an executable called `example` is generated that shows the major capabilities available in the library. You can take a look at `tests/example.cpp` for what exactly is being done.
+By default, an executable called `example` is generated that shows the major capabilities available in the library. You can take a look at `examples/example.cpp` for what exactly is being done.
+
+There are also two Python notebooks in the `examples` directory that can
+be used to reproduce the results in Figure 2 and Figure 3 from the following [preprint]().
 
 ### Python bindings:
 A minimal Python interface is provided as well. To build it and install the `srfloat` module in your current Python environment, just run 
