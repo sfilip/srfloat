@@ -20,7 +20,7 @@ By default, an executable called `example` is generated that shows the major cap
 ### Python bindings:
 A minimal Python interface is provided as well. To build it and install the `srfloat` module in your current Python environment, just run 
 ```
-pip install .
+pip install -e .
 ```
 from inside the project parent directory. For the moment, two functions are exposed to the user `cast_rn` and `cast_sr` for casting a `binary64` floating-point value to a lower precision floating-point value using round to nearest ties to even or stochastic rounding, respectively. Setting the seed of the PRNG used in the stochastic rounding calls can be done through the `seed` method. An example script can be found in `tests/srfloat_script.ipynb` (it assumes `mpmath` is installed in order to do multiple precision computations in Python). 
 

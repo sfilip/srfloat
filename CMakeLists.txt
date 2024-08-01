@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 
 project(
-    ImperfectSR
+    srfloat
     VERSION 1.0
     LANGUAGES CXX
 )
@@ -32,7 +32,7 @@ include_directories(${DEP_INCLUDE_DIRS} ${COMMON_INCLUDES})
 file(GLOB PROJECT_SRC_FILES ${PROJECT_SOURCE_DIR}/src/*.cpp)
 
 # generate example executable in tests directory
-add_executable(example tests/example.cpp)
+add_executable(example examples/example.cpp)
 target_link_libraries(example sr)
 # to create a new executable, just add a new line like:
 # add_executable(my_main tests/my_main.cpp sr)
