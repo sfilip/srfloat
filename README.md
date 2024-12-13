@@ -83,5 +83,5 @@ if __name__ == '__main__':
 ```
 
 ### Contributors:
-- [Silviu Filip](@sfilip)
-- [El-Mehdi El Arar](@MehdiElArar)
+- Silviu Filip: [@sfilip](https://github.com/sfilip)
+- El-Mehdi El Arar: [@MehdiElArar](https://github.com/MehdiElArar)
